@@ -51,7 +51,6 @@ namespace EntraSale
                 btn_entraSale.BackColor = Color.White;
             }
         }
-
         private void Btn_entraSale_Click(object sender, EventArgs e)
         {
             formul.Dispose();

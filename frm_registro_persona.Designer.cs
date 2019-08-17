@@ -189,7 +189,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frm_registro_persona";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Registro persona";
+            this.Text = "Persona";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -199,18 +199,18 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txt_dni;
-        private System.Windows.Forms.TextBox txt_nombre;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txt_apellido;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txt_direccion;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txt_celular;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txt_email;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btn_guardar;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        public System.Windows.Forms.TextBox txt_dni;
+        public System.Windows.Forms.TextBox txt_nombre;
+        public System.Windows.Forms.TextBox txt_apellido;
+        public System.Windows.Forms.TextBox txt_direccion;
+        public System.Windows.Forms.TextBox txt_celular;
+        public System.Windows.Forms.TextBox txt_email;
     }
 }

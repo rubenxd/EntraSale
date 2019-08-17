@@ -24,3 +24,4 @@ C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.csproj
 C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.csproj.CoreCompileInputs.cache
 C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.exe
 C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.pdb
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.frm_marcar.resources

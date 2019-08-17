@@ -16,6 +16,9 @@ namespace EntraSale
         int v_validado = 0;
         cls_persona persona = new cls_persona();
         bool v_ok;
+        DataTable dt;
+        public bool Registro { get; set; }
+        public string dniValidador { get; set; }
         public frm_registro_persona()
         {
             InitializeComponent();
@@ -26,6 +29,7 @@ namespace EntraSale
             mtd_validar();
             if (v_validado == 0)
             {
+                persona.Buscar = txt_dni.Text;
                 persona.DNI = txt_dni.Text;
                 persona.Nombre = txt_nombre.Text;
                 persona.Apellido = txt_apellido.Text;
@@ -34,13 +38,53 @@ namespace EntraSale
                 persona.Email = txt_email.Text;
                 this.Enabled = false;
                 Cursor = Cursors.WaitCursor;
-                v_ok = persona.mtd_registrar();
+                //verificar existencia DNI
+                dt = persona.mtd_consultar_DNI();
+                DataRow rows = dt.Rows[0];
+                if (Registro == true)
+                {                 
+                    if (Convert.ToInt32(rows["CN"]) > 0)
+                    {
+                        MessageBox.Show("Persona Ya existe", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        v_ok = false;
+                    }
+                    else
+                    {
+                        v_ok = persona.mtd_registrar();
+                    }
+                }
+                else
+                {
+                    if (dniValidador != txt_dni.Text)
+                    {
+                        if (Convert.ToInt32(rows["CN"]) > 0)
+                        {
+                            MessageBox.Show("Persona Ya existe", "ALERTA", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            v_ok = false;
+                        }
+                    }                   
+                    else
+                    {
+                        v_ok = persona.mtd_Editar();
+                    }
+                    
+                }
+                
                 this.Enabled = true;
                 Cursor = Cursors.Default;
                 if (v_ok == true)
                 {
-                    MessageBox.Show("Persona registrada correctamente","Correcto",MessageBoxButtons.OK,MessageBoxIcon.Information);
-                    mtd_limpiar();
+                    if (Registro == true)
+                    {
+                        MessageBox.Show("Persona registrada correctamente", "Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        mtd_limpiar();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Persona Editada correctamente", "Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        mtd_limpiar();
+                        this.Close();
+                    }    
                 }
             }
         }
