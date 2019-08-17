@@ -11,3 +11,16 @@ D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.csproj.CoreCompileInputs
 D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.exe
 D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.pdb
 D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.frm_registro_persona.resources
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\bin\Debug\EntraSale.exe.config
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\bin\Debug\EntraSale.exe
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\bin\Debug\EntraSale.pdb
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.csprojAssemblyReference.cache
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.frm_entra_sale.resources
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.frm_inicio.resources
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.frm_personal.resources
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.frm_registro_persona.resources
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.Properties.Resources.resources
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.csproj.GenerateResource.cache
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.csproj.CoreCompileInputs.cache
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.exe
+C:\Users\ruben\Documents\FAMIASEO\EntraSale\EntraSale\obj\Debug\EntraSale.pdb

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_registro_persona));
             this.label1 = new System.Windows.Forms.Label();
             this.txt_dni = new System.Windows.Forms.TextBox();
@@ -42,6 +43,8 @@
             this.txt_email = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btn_guardar = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -157,6 +160,11 @@
             this.btn_guardar.Text = "  Guardar";
             this.btn_guardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_guardar.UseVisualStyleBackColor = false;
+            this.btn_guardar.Click += new System.EventHandler(this.Btn_guardar_Click);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // frm_registro_persona
             // 
@@ -182,6 +190,7 @@
             this.Name = "frm_registro_persona";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro persona";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,5 +211,6 @@
         private System.Windows.Forms.TextBox txt_email;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btn_guardar;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

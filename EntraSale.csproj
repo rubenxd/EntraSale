@@ -45,6 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DB\cls_conexion.cs" />
+    <Compile Include="DB\cls_datos.cs" />
+    <Compile Include="EntradasSalidasDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EntradasSalidasDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="frm_entra_sale.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +76,7 @@
     <Compile Include="frm_registro_persona.Designer.cs">
       <DependentUpon>frm_registro_persona.cs</DependentUpon>
     </Compile>
+    <Compile Include="MODEL\cls_persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm_entra_sale.resx">
@@ -92,6 +100,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="EntradasSalidasDataSet.xsc">
+      <DependentUpon>EntradasSalidasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EntradasSalidasDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EntradasSalidasDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EntradasSalidasDataSet.xss">
+      <DependentUpon>EntradasSalidasDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

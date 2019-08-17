@@ -16,7 +16,6 @@ namespace EntraSale
         {
             InitializeComponent();
         }
-
         private void Btn_add_Click(object sender, EventArgs e)
         {
             frm_registro_persona fmrp = new frm_registro_persona();
