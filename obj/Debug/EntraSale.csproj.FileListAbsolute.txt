@@ -1,0 +1,13 @@
+D:\OTRO\Estudio\EntraSale\EntraSale\bin\Debug\EntraSale.exe.config
+D:\OTRO\Estudio\EntraSale\EntraSale\bin\Debug\EntraSale.exe
+D:\OTRO\Estudio\EntraSale\EntraSale\bin\Debug\EntraSale.pdb
+D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.csprojAssemblyReference.cache
+D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.frm_entra_sale.resources
+D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.frm_inicio.resources
+D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.frm_personal.resources
+D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.Properties.Resources.resources
+D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.csproj.GenerateResource.cache
+D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.csproj.CoreCompileInputs.cache
+D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.exe
+D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.pdb
+D:\OTRO\Estudio\EntraSale\EntraSale\obj\Debug\EntraSale.frm_registro_persona.resources
